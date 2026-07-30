@@ -1,13 +1,23 @@
-import Header from "./components/Header"
-import Hero from "./components/Hero"
+import { Header } from "./components/layout/Header"
+import { Hero } from "./components/sections/Hero"
+import { About } from "./components/sections/About"
 
 function App() {
 
   return (
-    <main>
-      <Header/>
-      <Hero/>
-    </main>
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <About/>
+        {/* <Projects/> */}
+        {/* <Skills/> */}
+        {/* <Contact/> */}
+      </main>
+    </>
+
+
+
   )
 }
 
