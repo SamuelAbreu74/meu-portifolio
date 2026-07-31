@@ -30,7 +30,7 @@ export const projectData = [
         id: "4",
         title: "TODO-LIST",
         description: "Minha primeira atividade onde aprendi o conceito de CRUD, uma TODO-LIST que possibilita o usuario criar, editar, listar e excluir tarefas em uma interface simples.",
-        image: [""],
+        image: ["./src/assets/todo-list-image.png"],
         technologies: ["HTML", "CSS", "JavaScript", "Bootstrap 5"],
         githubUrl: "https://github.com/SamuelAbreu74/TODO-LIST",
         liveUrl: "https://todo-list74.vercel.app",
