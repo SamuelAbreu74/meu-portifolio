@@ -2,6 +2,7 @@ import { Header } from "./components/layout/Header"
 import { Hero } from "./components/sections/Hero"
 import { About } from "./components/sections/About"
 import { Projects } from "./components/sections/Projects"
+import { Skills } from "./components/sections/Skills"
 
 function App() {
 
@@ -10,9 +11,9 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <About/>
-        <Projects/>
-        {/* <Skills/> */}
+        <About />
+        <Projects />
+        <Skills />
         {/* <Contact/> */}
       </main>
     </>
