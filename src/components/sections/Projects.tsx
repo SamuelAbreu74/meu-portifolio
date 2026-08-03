@@ -1,6 +1,5 @@
 import { Container } from "../common/Container"
 import { ProjectBox } from "../common/ProjectBox"
-// import { projectData } from "../../data/projects"
 
 export const Projects = () => {
     return (
@@ -12,7 +11,6 @@ export const Projects = () => {
                 <div className="min-w-full">
                     <ProjectBox />
                 </div>
-
             </Container>
         </section>
     )
