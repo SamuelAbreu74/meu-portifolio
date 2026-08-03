@@ -2,7 +2,7 @@
 
 
 :root {
-  --text: #6b6375;
+  --text: #161418;
   --text-h: #08060d;
   --bg: #fff;
   --border: #e5e4e7;
@@ -34,7 +34,7 @@
 }
 
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --text: #9ca3af;
     --text-h: #f3f4f6;
@@ -52,6 +52,26 @@
   #social .button-icon {
     filter: invert(1) brightness(2);
   }
+} */
+
+
+html.dark {
+  --text: #9ca3af;
+  --text-h: #f3f4f6;
+  --bg: #000000;
+  --bg-card: #000000;
+  --border: #2e303a;
+  --code-bg: #1f2028;
+  --accent: #8800FF;
+  --accent-bg: rgba(192, 132, 252, 0.15);
+  --accent-border: #9900ff;
+  --social-bg: rgba(47, 48, 58, 0.5);
+  --shadow:
+    #8800FF 0 10px 150px -3px, rgba(250, 250, 250, 0.25) 0 4px 6px -2px;
+}
+
+html.dark #social .button-icon {
+  filter: invert(1) brightness(2);
 }
 
 html {
