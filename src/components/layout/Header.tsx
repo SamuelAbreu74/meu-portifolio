@@ -1,6 +1,6 @@
 import { Container } from "../common/Container";
 import { Button } from "../common/Button";
-
+import ThemeToggle from "../common/ThemeToggle";
 
 const navItems = [
     { label: 'Inicio', href: '#inicio' },
@@ -10,7 +10,11 @@ const navItems = [
     { label: 'Contato', href: '#contato' },
 ]
 
+
+
 export const Header = () => {
+
+
     return (
         <header className="fixed top-0 left-0 w-full z-50 bg-(--bg)/80 backdrop-blur-sm border-b border-(--border)">
             <Container className="flex items-center justify-between h-16 md:h-20">
@@ -37,6 +41,7 @@ export const Header = () => {
                     <Button as="a" href="#contato" variant="primary">
                         Fale comigo
                     </Button>
+                    <ThemeToggle />
                     {/* Ícone de menu mobile aqui depois */}
                 </div>
             </Container>
